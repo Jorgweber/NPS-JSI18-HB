@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Đăng ký/Đăng nhập</title>
+  <link rel="stylesheet" type="text/css" href="hw.css">
+</head>
+<body>
+  <h1>Đăng ký/Đăng nhập</h1>
+
+  <form onsubmit="return validateForm()" id="loginForm">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required><br><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required><br><br>
+
+    <input type="submit" value="Đăng nhập">
+  </form>
+
+  <script src="hw.js"></script>
+</body>
+</html>
